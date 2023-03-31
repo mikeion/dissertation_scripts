@@ -1,3 +1,5 @@
+# Split the long message logs into separate conversations
+
 import json
 import os
 from datetime import datetime
