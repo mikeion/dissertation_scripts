@@ -4,7 +4,7 @@ The /scripts folder contains the code for cleaning and preparing the conversatio
 
 
 The Messages come in the following format:
-
+```json
   "channel": {
     "id": (string) The unique identifier of the channel.
     "type": (string) The type of the channel (e.g., "GuildTextChat" for a text channel).
@@ -48,6 +48,7 @@ The Messages come in the following format:
       "mentions": (array) An array of user objects representing the users mentioned in the message (optional).
       "reference": (object) An object representing the message that this message is a reply to (optional).
     }]
+```
 
 1. `conversation_disentanglement.py` breaks each channels message into separate dialogues, based on the metadata that shows cut-off of open and close dialog by the bot.
 2. `process_conversations_for_labeling.py`  parses cleaned data files to extract conversation records, sorts records by timestamp to maintain chronological order, groups based on sender-receiver pairs to organize the data into meaningful interactions, and writes the processed records to an output file, ensuring that records for each conversation were grouped together.
