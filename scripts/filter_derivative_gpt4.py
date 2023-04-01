@@ -5,6 +5,11 @@ import openai
 import glob
 import re
 
+""" This script is used to filter the JSON files that contain the dialogues from the #help channels of the math discord server.
+It uses GPT-4 to determine whether or not the problem being discussed in the dialogue involves the concept of 
+the derivative from the Calculus 1 course (amongst other features of the problem and context). 
+"""
+
 messages = [
     {"role": "system", "content": "You are Calculus1GPT, a large language model whose expertise is reading through dialogues of students and tutors in the #help channels of a mathematics discord, and determining whether or not they are discussing problems pertaining to the derivative. "}
 ]
