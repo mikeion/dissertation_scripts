@@ -1,0 +1,191 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8019,        181]
+NotebookOptionsPosition[      6966,        154]
+NotebookOutlinePosition[      7385,        170]
+CellTagsIndexPosition[      7342,        167]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Directory", "[", "]"}]], "Input",
+ CellDingbat->Cell[
+   BoxData[
+    TemplateBox[{}, "ChatInputCellDingbat"]], Background -> None],
+ CellChangeTimes->{{3.9023242505739284`*^9, 3.902324262793348*^9}, {
+  3.9023246604163785`*^9, 3.902324676448939*^9}, {3.902324928294547*^9, 
+  3.9023250274075413`*^9}, {3.9023257422986026`*^9, 3.902325745339913*^9}, {
+  3.90232577780276*^9, 3.9023258046134405`*^9}, {3.902325978779667*^9, 
+  3.9023259807736692`*^9}, {3.902326015960906*^9, 3.902326019052779*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"4b92d877-fae9-434b-9652-c32559b4be19"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\mrmik\\\\Documents\"\>"], "Output",
+ CellChangeTimes->{3.902325981261098*^9, 3.9023260196256647`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"a1ca1f3c-413f-4a48-9afd-7c432c61ed67"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  "\"\<C:\\\\Users\\\\mrmik\\\\Dropbox (University of \
+Michigan)\\\\mike_dissertation\\\\github\\\\dissertation_scripts\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9023260567773495`*^9, 3.9023261021465344`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"ede9d345-e360-4deb-a3bf-84c78e0f6237"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\mrmik\\\\Dropbox (University of \
+Michigan)\\\\mike_dissertation\\\\github\\\\dissertation_scripts\"\>"], \
+"Output",
+ CellChangeTimes->{3.902326102912595*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"546216d2-b376-4189-86d9-81b1e00ad31b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Directory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.902326107945213*^9, 3.9023261100798573`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"3443d140-bb08-4993-b605-397773115e95"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\mrmik\\\\Dropbox (University of \
+Michigan)\\\\mike_dissertation\\\\github\\\\dissertation_scripts\"\>"], \
+"Output",
+ CellChangeTimes->{3.90232611060966*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"1c7de49b-9fca-4b04-a6b4-554090e2e923"],
+
+Cell[TextData[{
+ "It looks like you successfully changed the current directory using the ",
+ Cell[BoxData[
+  TemplateBox[{"SetDirectory", "paclet:ref/SetDirectory"},
+   "TextRefLink"]],ExpressionUUID->"23fd4473-7c23-47c7-a4a2-50da35008495"],
+ " function. The ",
+ Cell[BoxData[
+  TemplateBox[{
+    RowBox[{"Directory", "[", "]"}]},
+   "ChatCodeInlineTemplate"]], "ChatCode",
+  Background->None,ExpressionUUID->"c8f1a91b-101a-4208-b7a7-981484c45c8c"],
+ " function returns the current directory, so you can see that it has been \
+updated to ",
+ Cell[BoxData[
+  TemplateBox[{
+   "\"C:\\\\Users\\\\mrmik\\\\Dropbox (University of \
+Michigan)\\\\mike_dissertation\\\\github\\\\dissertation_scripts\""},
+   "ChatCodeInlineTemplate"]], "ChatCode",
+  Background->None,ExpressionUUID->"3a14466e-fffd-463a-9109-758aa987ca95"],
+ ". Is there anything else I can help you with?"
+}], "AssistantOutput",
+ CellFrame->0,
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{}, "ChatIconCodeAssistant"], ContentPadding -> False, 
+     FrameMargins -> 0, ImageSize -> {35, 35}, ImageSizeAction -> 
+     "ShrinkToFit", Alignment -> {Center, Center}]], Background -> None],
+ ShowCellBracket->False,
+ CellMargins->-2,
+ CellOpen->False,
+ TaggingRules-><|
+  "CellToStringData" -> 
+   "It looks like you successfully changed the current directory using the \
+`SetDirectory` function. The `Directory[]` function returns the current \
+directory, so you can see that it has been updated to `\"C:\\\\Users\\\\mrmik\
+\\\\Dropbox (University of \
+Michigan)\\\\mike_dissertation\\\\github\\\\dissertation_scripts\"`. Is there \
+anything else I can help you with?", "MessageTag" -> Inherited, "ChatData" -> 
+   "OEM6eJy9V91uI0kVFrszsDE7/CwgwV3NMBI7S+\
+KBRSuRSCtkksmshZ1EsUdhFWfX1d2n24Wrq5qq6tjNm8BzcMOj8AK8Ard8VdXtn8nsHdpcRO3qOv/\
+f+c7pwc+PJr2BtcI6rlKyB4Pa6ZI7kfpzPJ9rg5/20dTUhKM/\
+cktXRpeV27v69HTB3alWjtbulKTEFSizQhXntUqd0Oobr19p617dc1lzf+2d13+6e91Q9dD+R/\
+7GmRH3pC60o0TrpX18zqWFzz/2775AgNo0I1KFW5z+AqdnjeKlSHdi3FX4o3NDf61Jpc0VKS5dY/\
+7xd//3rz8cTX4wVKmsM2p17skdjPl6qpek7N7xkzGZgsZICS/wr83m47HOSE6eFJU7+l3/\
+syNXm0QfTX6IGC1M00PTTyYLvRoLJUrxN8r2TPxs4gwhIlVc1q6q3ZjcQu9f+\
+f6UyooMhx0yefj7D5Q+nmot9/39MBy9UjyRMNNl8tFUV1en38HDGXd8gIcPupDy9+\
+2jEfIxeA9vjZY0+a5trKPyaPK91FdOucl/f/\
+Klrhk3xDhbkKzyWrIbLXPDSzbiqqihiPEWi46hPJSxU6SIdQB1fQYVhv1FJ0xY5jTLNHMLYrmWUq8Q\
++0mv9wm7zHMyD1XbuoCnAV0sAY4zphWrDN0LXVsmFJJm+xD/\
+Ar6xXKwZGaNNOHq1riQXKp6wsg2a2Wi9tjBXq4yMdzKzbAXEsRViZiujVbGrQYfiwHd/\
+peQNS4ghQXntm8VHJBStUSThAZAF1cGDmIKtuZVwC6bx00CoEqlF5pgiyijrs5uFkMQaZNtWlAougR\
+YofpCSw3An5SrUI+rkqoka+73eL9lrUgCMZENlnalja/Z6XR0FCms4TuF6FI7OuYXRdeF/\
+dha7rowiOU+\
+pz6aIZZNK74ihlNDCLEeDbyNdcBwlRMrn6Z6MQ1qQp5hOTwnxvuostHDrswm6RHIjmxDmTtkCBDuwc\
+ymbHc1B147uhHJtvH0fYyYsXjXRgc7BPgN/\
+4FcE5Eob74JBLK61zMoaleMZakWd4AawrKgFSABVtwG7g9HN4MsJ7BXwILgNMqiQdWpLrojp/\
+C0djhc2YidDQI7Ca9dU4Wonf8Juhxfnl3eH7PZmcH0xvHiNR3h+++r6+\
+vL6rnfwSfe4p4p3qPcZaUP+VdsuQaZT9pYD3O2W0DIploRMlzzz/V/6fl4CgEkd76W+\
+z1dCSoYOxX9TqxAw+\
+qXtw2AsRIDIDUPdWvx3AVqk72YBwKKUb6XOYwIlRelZInW69HnxFg9BClCO3mXCxQQDu4R683QJcCw\
+h4d9Fwg+Oyo5OVjDFeFVJRAyaPOnN5/PuZc8r9wfbim4NKV/tLmBYzHQN+R2TSCS/\
+1yJjvEwE8OGaeDGNIzAwoz1h8/m4aacinrrJebu+C2ZvjEAdAPEFA6EYP4098UWeGfEp/\
+TmEtnELsZWdPxJtw6woFKw8X3/\
+1Kfs1a7769Dm0DsdXl9fTwcX06V6qwXPeGkeVXeCLLhgPsB19rG2rwy4rZFMOmHbJ50HQSm4XfVAmL\
+ysklg0dQrcgzZLY7Pnxcf/4M+Ytg6hEGXkOiCjI+cy1Gmdzb3r2HASvQaeyeQrvR0It0cSxN/\
+3lBzMi02ldgj3CMsKSps3XfrvZBhfW6CfJE5J3H1c8leROaiNeRDKg1vMA2alHx+\
+aSofxlOHkRXm4MXyKee0GrzcXACy+7993rKDX0zccmwY2NgAOjGXD9y/A2vnzRtgQ6ASMRI8W7/\
+3AwNmWCcb8tTqxmQAT3PbOfFcB32WeXCikM41fsSIKFA7L9yJoEACDLSS2kO8KduBKwvIUq5pJr+\
+mwQsI4oloGdayUB1ji58pafwzIG2SwMpQcBTFyDBnq9YVJPpH8iqmKTWeGLEfu10ugDZB8X3oAXtp5\
+4nBRQ6hcohANbPPMsUflNNquBaYic6RCg31GA5ULqBIL3HFmHShstCAd29LcU+RWYmwaCVyH/\
+rIQ75uEY3hTAN2QZ9zYIjf0oVrTavN5OQp5lcQjdjBAeNoXId0ulV1jYoDEFGPKcZeDiQ7+\
+mpAtCLfbruFkYOpCkWCDDLK+\
+kdvbQW2G6iguTrdOFlwiQj55KKshvO3CjBJdHvBC3IuwkOwvRdil85MfBzkr4z/c9Rw7V7e/\
+vTj5nZ6EzsVLf3vV62GJx+jl7dnoym73xa9BsVppSLGezszYM+6znZY+97ITcVvxdMqCBRK/\
+Zx28UVgxjPamivGORLkTB1QtcxID6GhMeYjFBs1kBTqqT2Wz39GubGoHPj2etj8ff4OP/3V6I9be/\
+eWeicPxteYGCbet5sFnXd4r67/dA2NJ/goWhH/fQOvXdgJXfb1sLAJ+yOPcxf/\
+yinHUh7TDufLeo802zxs1xvpOE7TswBb5ulH237tAK3cprqV1TMHz8ghIaq658y4TWmn8r+\
+Zz32TB463dS1YBNETw6jNhwu5iHCQst+Fj7cDQat5/L2kye+M+\
+jwbYGvfZ7bIqF8GCooBVEnv0PMgu6nw=="|>,
+ GeneratedCell->True,
+ CellAutoOverwrite->
+  True,ExpressionUUID->"c9bced04-529b-453a-b6b3-98d258d9de5d"]
+}, Open  ]]
+},
+WindowSize->{582.6, 488.4},
+WindowMargins->{{Automatic, 123}, {35.39999999999998, Automatic}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Chatbook.nb",
+ExpressionUUID->"5164bbf0-ef3c-486e-b46d-c1557469b23f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 599, 10, 51, "Input",ExpressionUUID->"4b92d877-fae9-434b-9652-c32559b4be19"],
+Cell[1182, 34, 212, 2, 32, "Output",ExpressionUUID->"a1ca1f3c-413f-4a48-9afd-7c432c61ed67"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1431, 41, 339, 6, 67, "Input",ExpressionUUID->"ede9d345-e360-4deb-a3bf-84c78e0f6237"],
+Cell[1773, 49, 270, 4, 52, "Output",ExpressionUUID->"546216d2-b376-4189-86d9-81b1e00ad31b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2080, 58, 204, 3, 28, "Input",ExpressionUUID->"3443d140-bb08-4993-b605-397773115e95"],
+Cell[2287, 63, 270, 4, 52, "Output",ExpressionUUID->"1c7de49b-9fca-4b04-a6b4-554090e2e923"],
+Cell[2560, 69, 4390, 82, 0, "AssistantOutput",ExpressionUUID->"c9bced04-529b-453a-b6b3-98d258d9de5d",
+ CellOpen->False]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
